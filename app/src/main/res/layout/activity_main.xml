@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:weightSum="2"
     tools:context=".MainActivity">
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_weight="1"
-            >
 
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/leftDirection"
             android:layout_width="50sp"
             android:layout_height="50sp"
-            android:src="@drawable/trianglebutton"
+            android:layout_marginEnd="366dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginRight="366dp"
+            android:layout_marginStart="58dp"
             android:rotation="30"
-            android:layout_margin="30sp"
-
-            />
+            android:src="@drawable/trianglebutton"
+            app:layout_constraintBottom_toBottomOf="@+id/rightDirection"
+            app:layout_constraintEnd_toStartOf="@+id/downDirection"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rightDirection" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/rightDirection"
             android:layout_width="50sp"
             android:layout_height="50sp"
-            android:src="@drawable/trianglebutton"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="83dp"
+            android:layout_marginEnd="262dp"
+            android:layout_marginRight="262dp"
             android:rotation="90"
-            android:layout_margin="30sp"
-            />
-
-
-
+            android:src="@drawable/trianglebutton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/downDirection"
+            app:layout_constraintStart_toEndOf="@+id/leftDirection" />
 
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/upDirection"
             android:layout_width="50sp"
             android:layout_height="50sp"
+            android:layout_above="@+id/downDirection"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="47dp"
+            android:layout_marginTop="154dp"
             android:src="@drawable/trianglebutton"
-            android:layout_margin="20sp"
-
-            />
+            app:layout_constraintBottom_toTopOf="@+id/downDirection"
+            app:layout_constraintEnd_toEndOf="@+id/downDirection"
+            app:layout_constraintStart_toStartOf="@+id/downDirection"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/downDirection"
             android:layout_width="50sp"
             android:layout_height="50sp"
+            android:layout_alignBottom="@+id/leftDirection"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="58dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
             android:rotation="180"
             android:src="@drawable/trianglebutton"
-            android:layout_margin="20sp"
-            />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/leftDirection"
+            app:layout_constraintTop_toBottomOf="@+id/upDirection" />
 
 
-        </RelativeLayout>
-
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
