@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/leftDirection"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/trianglebutton"
+            android:rotation="30"
+            android:layout_margin="30sp"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/rightDirection"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/trianglebutton"
+            android:rotation="90"
+            android:layout_margin="30sp"
+            />
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/upDirection"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/trianglebutton"
+            android:layout_margin="20sp"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/downDirection"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:rotation="180"
+            android:src="@drawable/trianglebutton"
+            android:layout_margin="20sp"
+            />
+
+
+        </RelativeLayout>
+
+</LinearLayout>
