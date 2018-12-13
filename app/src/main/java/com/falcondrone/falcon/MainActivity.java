@@ -6,15 +6,11 @@ import android.view.View;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import de.hdodenhof.circleimageview.CircleImageView;
+import io.github.controlwear.virtual.joystick.android.JoystickView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    @BindView(R.id.upDirection) CircleImageView mUpDirection;
-    @BindView(R.id.downDirection) CircleImageView mDownDirection;
-    @BindView(R.id.leftDirection) CircleImageView mLeftDirection;
-    @BindView(R.id.rightDirection) CircleImageView mRightDirection;
-
+    @BindView(R.id.directionJoyStick) JoystickView mDirectionJoyStick;
 
 
     @Override
