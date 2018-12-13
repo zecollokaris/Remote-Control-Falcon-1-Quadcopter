@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A6ACAF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="2"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+                <com.ramotion.fluidslider.FluidSlider
+                    android:id="@+id/fluidslider"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    app:initial_position="0.0"
+                    app:bar_color="#424949"
+                    android:elevation="10sp"
+                    android:rotation="270"
+                    android:layout_centerVertical="true"
+
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+                <io.github.controlwear.virtual.joystick.android.JoystickView
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/directionJoyStick"
+                    android:layout_width="200sp"
+                    android:layout_height="200sp"
+                    custom:JV_buttonColor="#273746  "
+                    custom:JV_buttonSizeRatio="26%"
+                    custom:JV_borderColor="#000"
+                    custom:JV_backgroundColor="#2874A6"
+                    custom:JV_borderWidth="2dp"
+                    custom:JV_fixedCenter="true"
+                    android:layout_gravity="right"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    />
+        </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
