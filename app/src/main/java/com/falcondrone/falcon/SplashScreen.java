@@ -36,12 +36,12 @@ public class SplashScreen extends AppCompatActivity implements View.OnClickListe
 
 
 
-//        Animation fadeIn = AnimationUtils.loadAnimation(getApplication(),R.anim.fadein);
-//        fadeIn.setDuration(3000);
-//        mWelcomeButton.setOnClickListener(this);
-//        mWelcomeButton.startAnimation(fadeIn);
-//        mLogoTextView.startAnimation(fadeIn);
-//        mVersion.startAnimation(fadeIn);
+        Animation fadeIn = AnimationUtils.loadAnimation(getApplication(),R.anim.fadein);
+        fadeIn.setDuration(3000);
+        mWelcomeButton.setOnClickListener(this);
+        mWelcomeButton.startAnimation(fadeIn);
+        mLogoTextView.startAnimation(fadeIn);
+        mVersion.startAnimation(fadeIn);
 
 //        anim = (AnimationDrawable) mSplashR_Layout.getBackground();
 //        anim.setEnterFadeDuration(2000);
