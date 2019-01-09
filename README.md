@@ -23,3 +23,10 @@ A light-weight Quadcopter that is safe and can be used Multi-purposely due to it
 **[Wesley Mbate](https://github.com/Wess58)**
 
 
+## Current Market Position (As of 21/Dec/2018)
+
+**72%** of the Current Drone sales is owned by the Market Leader.
+
+**28%** is owned by the Competitors.
+
+- Based on the Market analisis if you were an entry if I was an entry 
