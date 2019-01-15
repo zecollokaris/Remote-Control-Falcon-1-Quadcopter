@@ -1,5 +1,5 @@
 <p align="center">
-<img align="centre" width="300" src="Spec.md/drone.gif" alt="Cryptobyte logo" />
+<img align="centre" width="300" src="Spec.md/drone.gif" alt="Drone Image" />
 <p>
 
 # FALCON ONE! :helicopter::dash:
@@ -10,11 +10,15 @@ With the recent advancement in technology the commercial drone industry demands 
 
 ## DESCRIPTION
 
-A light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
+Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
 
 ## AUTHORS
 
-**[Collins Kariuki](https://github.com/Magz8984)**
+<p align="center">
+<img align="centre" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
+<p>
+
+**[Collins Muthinja](https://github.com/Magz8984)**
 
 **[Maxwell Kimutai](https://github.com/maxwellkimutai)**
 
@@ -23,10 +27,13 @@ A light-weight Quadcopter that is safe and can be used Multi-purposely due to it
 **[Wesley Mbate](https://github.com/Wess58)**
 
 
-## Current Market Position (As of 21/Dec/2018)
+## PROGRESS MADE
 
-**72%** of the Current Drone sales is owned by the Market Leader.
+- Conducted Research
+- Acquired Hardware
+- Assembled Frame
+- Calibrated our ESC's
+- Made Android Application
+- Connected Application to Micro Controllers
+- Came up with the final circuits
 
-**28%** is owned by the Competitors.
-
-- Based on the Market analisis if you were an entry if I was an entry 
