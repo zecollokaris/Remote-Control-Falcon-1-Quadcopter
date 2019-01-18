@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Falcon</string>
+    <string name="throttle">Throttle</string>
+    <string name="angle">Angle</string>
+    <string name="strength">Strength</string>
+    <string name="automatic">Auto</string>
+    <string name="manual">Hold</string>
+</resources>

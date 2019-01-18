@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:weightSum="2.5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="356dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/angle"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strength"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="@string/throttle"
+            android:textSize="20sp" />
+
+        <com.ramotion.fluidslider.FluidSlider
+            android:id="@+id/thrust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:initial_position="0.0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal"
+            android:padding="5sp"
+            android:weightSum="2">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/automatic"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/automatic" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/manual"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/manual" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnState"
+            android:layout_width="49sp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:text="ON" />
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/direction"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            custom:JV_backgroundColor="#262626"
+            custom:JV_borderColor="@android:color/holo_blue_dark"
+            custom:JV_borderWidth="4dp"
+            custom:JV_buttonColor="@android:color/holo_green_dark"
+            custom:JV_buttonSizeRatio="20%"
+            custom:JV_fixedCenter="false" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
