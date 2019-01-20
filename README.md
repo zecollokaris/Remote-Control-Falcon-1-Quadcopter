@@ -10,7 +10,11 @@ With the recent advancement in technology the commercial drone industry demands 
 
 ## DESCRIPTION 
 
-Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
+Falcon one is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
+
+<p align="center">
+<img width="250" src="" alt="Cryptobyte logo" />
+<p>
 
 ## DISCLAIMER :warning:
 
