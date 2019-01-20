@@ -51,7 +51,7 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 ## TECHNOLOGIES USED
 
-### :open_file_folder: SOFTWARE
+### :open_file_folder: FIRMWARE
 
 1. Android Development
 
@@ -87,8 +87,13 @@ This project is still under development and the challenges may have been solved.
 
 :small_blue_diamond: Start production of other drones to satisfy a huge demanding market. 
 
-## FEATURES!
+## FEATURES
 
 <p align="center">
 <img align="centre" src="Spec.md/Disp2.png" alt="Images of creators" />
 <p>
+
+## HOW IT WORKS
+
+The drone controlled by an adnroid app connected via wifi and  tcp/ip protocol. It has 3 main units hardware, firmware and the mobile application. As for hardware rotors are conected to escs (Electronic Speed Controllers), the esc's are connected to an esp8266 micro controller via pmw pins that send analog signals to the escs to allow voltages to rotors.
+
