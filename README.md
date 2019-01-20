@@ -100,3 +100,7 @@ The drone controlled by an adnroid app connected via wifi and  tcp/ip protocol. 
 Bearing in mind it is a quadcopter we have a 4 escs all draining our lipo battery through it has a high discarge rate, we have a fiberglass pcb with copper linings to provide a pdb(Power distribution board) for our escs.
 
 In addition to hardware we have an mpu6050 6 degrees of freedom to measure both linear acceleration an orientation to provide an automated flight stabilization method.
+
+For the firmware it is uploaded as a sketch to our micro controller via serial com from a laptop. C and C++ code 
+is used to program the EEPROM .Code is all written from scratch made user friendly,mobile and upgradable.The android app is written in Java using http methods to send post requests to our micro controller to control rpms of rotors by
+the arduino Servo lib.
