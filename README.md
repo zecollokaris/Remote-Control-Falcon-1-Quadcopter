@@ -51,19 +51,19 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 ### :open_file_folder: SOFTWARE
 
-:small_blue_diamond: Android Development
+1. Android Development
 
-:small_blue_diamond: Java Programming Language
+2. Java Programming Language
 
-:small_blue_diamond: C Programming Language
+3. C Programming Language
 
 ### :open_file_folder: HARDWARE
 
-:small_blue_diamond: MPU-6050
+1. MPU-6050
 
-:small_blue_diamond: ESP-8266 Node MCU
+2. ESP-8266 Node MCU
 
-:small_blue_diamond: Quadcopter Kit
+3. Quadcopter Kit
 
 ## CHALLENGES FACED
 
@@ -75,12 +75,12 @@ This project is still under development and the challenges may have been solved.
 
 ## FUTURE IMPLEMENTATIONS
 
-:helicopter: Register a company and start production.
+:small_blue_diamond: Register a company and start production.
 
-:helicopter: Increase signal transmission range for Falcon one.
+:small_blue_diamond: Increase signal transmission range for Falcon one.
 
-:helicopter: Enter semi-autonomous state for falcon one.
+:small_blue_diamond: Enter semi-autonomous state for falcon one.
 
-:helicopter: Increase Flight time.
+:small_blue_diamond: Increase battery Flight time.
 
-:helicopter: Start production of other drones to satisfy a huge demanding market. 
+:small_blue_diamond: Start production of other drones to satisfy a huge demanding market. 
