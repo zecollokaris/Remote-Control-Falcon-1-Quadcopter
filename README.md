@@ -49,6 +49,18 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 :pushpin: **Achieved first flight**
 
+## HOW IT WORKS :rocket:
+
+The drone controlled by an adnroid app connected via wifi and tcp/ip protocol. It has 3 main units hardware, firmware and the mobile application. As for hardware rotors are conected to escs (Electronic Speed Controllers), the esc's are connected to an esp8266 micro controller via pmw pins that send analog signals to the escs to allow voltages to rotors.
+
+Bearing in mind it is a quadcopter we have a 4 escs all draining our lipo battery through it has a high discarge rate, we have a fiberglass pcb with copper linings to provide a pdb(Power distribution board) for our escs.
+
+In addition to hardware we have an mpu6050 6 degrees of freedom to measure both linear acceleration an orientation to provide an automated flight stabilization method.
+
+For the firmware it is uploaded as a sketch to our micro controller via serial com from a laptop. C and C++ code 
+is used to program the EEPROM .Code is all written from scratch made user friendly,mobile and upgradable.The android app is written in Java using http methods to send post requests to our micro controller to control rpms of rotors by the arduino Servo lib.
+
+
 ## TECHNOLOGIES USED
 
 ### :open_file_folder: FIRMWARE
@@ -93,14 +105,10 @@ This project is still under development and the challenges may have been solved.
 <img align="centre" src="Spec.md/Disp2.png" alt="Images of creators" />
 <p>
 
-## HOW IT WORKS
+## CONTACT
 
-The drone controlled by an adnroid app connected via wifi and  tcp/ip protocol. It has 3 main units hardware, firmware and the mobile application. As for hardware rotors are conected to escs (Electronic Speed Controllers), the esc's are connected to an esp8266 micro controller via pmw pins that send analog signals to the escs to allow voltages to rotors.
+This Repository is constantly being updated to keep up with the work feel free to contact for more information.
 
-Bearing in mind it is a quadcopter we have a 4 escs all draining our lipo battery through it has a high discarge rate, we have a fiberglass pcb with copper linings to provide a pdb(Power distribution board) for our escs.
+:telephone_receiver: Collins Magondu +254 753 924273
 
-In addition to hardware we have an mpu6050 6 degrees of freedom to measure both linear acceleration an orientation to provide an automated flight stabilization method.
-
-For the firmware it is uploaded as a sketch to our micro controller via serial com from a laptop. C and C++ code 
-is used to program the EEPROM .Code is all written from scratch made user friendly,mobile and upgradable.The android app is written in Java using http methods to send post requests to our micro controller to control rpms of rotors by
-the arduino Servo lib.
+:incoming_envelope: email Collins Kariuki collo.kariss@gmail.com
