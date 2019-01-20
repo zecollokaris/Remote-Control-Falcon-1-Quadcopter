@@ -88,3 +88,7 @@ This project is still under development and the challenges may have been solved.
 :small_blue_diamond: Start production of other drones to satisfy a huge demanding market. 
 
 ## FEATURES!
+
+<p align="center">
+<img align="centre" src="Spec.md/Disp2.png" alt="Images of creators" />
+<p>
