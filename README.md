@@ -90,5 +90,5 @@ This project is still under development and the challenges may have been solved.
 ## FEATURES!
 
 <p align="center">
-<img align="centre" src="Spec.md/Disp3.png" alt="Images of creators" />
+<img align="centre" src="Spec.md/Disp2.png" alt="Images of creators" />
 <p>
