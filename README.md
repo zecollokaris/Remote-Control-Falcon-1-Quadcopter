@@ -75,3 +75,12 @@ This project is still under development and the challenges may have been solved.
 
 ## FUTURE IMPLEMENTATIONS
 
+:helicopter: Register a company and start production.
+
+:helicopter: Increase signal transmission range for Falcon one.
+
+:helicopter: Enter semi-autonomous state for falcon one.
+
+:helicopter: Increase Flight time.
+
+:helicopter: Start production of other drones to satisfy a huge demanding market. 
