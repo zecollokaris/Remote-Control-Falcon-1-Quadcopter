@@ -34,10 +34,10 @@ This product is soley owned by falcon one and should not in any way be produced 
 ## PROGRESS MADE
 
 :pushpin: Conducted Research
-- Acquired Hardware
-- Assembled Frame
-- Calibrated the ESC's
-- Made Android Application
-- Connected Application to Micro Controllers
+:pushpin: Acquired Hardware
+:pushpin: Assembled Frame
+:pushpin: Calibrated the ESC's
+:pushpin: Made Android Application
+:pushpin: Connected Application to Micro Controllers
 - Came up with the final circuits
 
