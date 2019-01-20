@@ -49,7 +49,7 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 ## TECHNOLOGIES USED
 
-#### :open_file_folder: SOFTWARE
+### :open_file_folder: SOFTWARE
 
 :small_blue_diamond: ***Android Development***
 
@@ -57,7 +57,7 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 :small_blue_diamond: ***C Programming Language***
 
-#### :open_file_folder: HARDWARE
+### :open_file_folder: HARDWARE
 
 :small_blue_diamond: ***MPU-6050***
 
