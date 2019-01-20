@@ -34,11 +34,17 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 ## PROGRESS MADE
 
 :pushpin: Conducted Research
+
 :pushpin: Acquired Hardware
+
 :pushpin: Assembled Frame
+
 :pushpin: Calibrated the ESC's
+
 :pushpin: Made Android Application
+
 :pushpin: Connected Application to Micro Controllers
+
 :pushpin: Came up with the final circuits
 
 ## TECHNOLOGIES USED
@@ -46,13 +52,17 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 #### SOFTWARE
 
 :o: Android Development
+
 :o: JAva Programming Language
+
 :o: C Programming Language
 
 #### HARDWARE
 
 :o: MPU-6050
+
 :o: ESP-8266 Node MCU
+
 :o: Quadcopter Kit
 
 
