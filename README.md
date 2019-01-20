@@ -8,7 +8,7 @@
 
 With the recent advancement in technology the commercial drone industry demands an innovative and cost-effective solution to help the end-user in all applications of drones and their fields. 
 
-## DESCRIPTION :page_with_curl:4
+## DESCRIPTION 
 
 Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
 
