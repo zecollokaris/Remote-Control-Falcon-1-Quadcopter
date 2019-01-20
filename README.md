@@ -65,4 +65,13 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 :small_blue_diamond: Quadcopter Kit
 
+## CHALLENGES FACED
+
+- Callibrating the **MPU-6050** which contains the gyroscope for maximum flight staability.
+
+**Note**
+
+This project is still under development and the challenges may have been solved.
+
+## FUTURE IMPLEMENTATIONS
 
