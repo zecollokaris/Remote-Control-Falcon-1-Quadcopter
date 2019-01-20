@@ -1,5 +1,5 @@
 <p align="center">
-<img align="centre" width="300" src="Spec.md/drone.gif" alt="Drone Image" />
+<img align="centre" width="300" src="Spec.md/drone.gif" alt="Drone GIF" />
 <p>
 
 # FALCON ONE! :helicopter::dash:
@@ -15,7 +15,7 @@ Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purpose
 ## AUTHORS
 
 <p align="center">
-<img align="centre" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
+<img align="centre" src="Spec.md/Disp1.png" alt="Images of creators" />
 <p>
 
 **[Collins Muthinja](https://github.com/Magz8984)**
