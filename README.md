@@ -32,7 +32,7 @@ Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purpose
 - Conducted Research
 - Acquired Hardware
 - Assembled Frame
-- Calibrated our ESC's
+- Calibrated the ESC's
 - Made Android Application
 - Connected Application to Micro Controllers
 - Came up with the final circuits
