@@ -39,5 +39,5 @@ This product is soley owned by falcon one and should not in any way be produced 
 :pushpin: Calibrated the ESC's
 :pushpin: Made Android Application
 :pushpin: Connected Application to Micro Controllers
-- Came up with the final circuits
+:pushpin: Came up with the final circuits
 
