@@ -97,3 +97,4 @@ This project is still under development and the challenges may have been solved.
 
 The drone controlled by an adnroid app connected via wifi and  tcp/ip protocol. It has 3 main units hardware, firmware and the mobile application. As for hardware rotors are conected to escs (Electronic Speed Controllers), the esc's are connected to an esp8266 micro controller via pmw pins that send analog signals to the escs to allow voltages to rotors.
 
+Bearing in mind it is a quadcopter we have a 4 escs all draining our lipo battery through it has a high discarge rate, we have a fiberglass pcb with copper linings to provide a pdb(Power distribution board) for our escs.
