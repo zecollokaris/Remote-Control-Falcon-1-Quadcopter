@@ -46,6 +46,8 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 #### SOFTWARE
 
 :o: Android Development
+:o: JAva Programming Language
+:o: C Programming Language
 
 
 
