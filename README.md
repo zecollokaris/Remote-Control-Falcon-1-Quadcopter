@@ -47,6 +47,8 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 :pushpin: **Came up with the final circuits**
 
+:pushpin: **Achieved first flight**
+
 ## TECHNOLOGIES USED
 
 ### :open_file_folder: SOFTWARE
