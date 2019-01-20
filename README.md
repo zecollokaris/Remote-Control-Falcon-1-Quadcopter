@@ -106,7 +106,7 @@ This project is still under development and the challenges may have been solved.
 
 ## CONTACT
 
-This Repository is constantly being updated to keep up with the work feel free to contact for more information.
+This Repository is constantly being updated to keep up with the work. Feel free to contact for more information.
 
 :telephone_receiver: **Collins Magondu** +254 753 924273
 
