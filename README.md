@@ -12,9 +12,9 @@ With the recent advancement in technology the commercial drone industry demands 
 
 Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
 
-## DISCLAIMER
+## DISCLAIMER :warning:
 
-This product is soley owned by falcon one and should not in any way be produced anywhere else.
+THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED ANYWHERE ELSE UNLESS UNDER AUTHORIZATION BY ALL FALCON ONE CREATORS:exclamation:
 
 ## AUTHORS
 
@@ -40,4 +40,6 @@ This product is soley owned by falcon one and should not in any way be produced 
 :pushpin: Made Android Application
 :pushpin: Connected Application to Micro Controllers
 :pushpin: Came up with the final circuits
+
+## TECHNOLOGIES USED
 
