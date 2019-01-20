@@ -10,7 +10,11 @@ With the recent advancement in technology the commercial drone industry demands 
 
 ## DESCRIPTION 
 
-Falcon 1 is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
+Falcon one is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/36197725/51444022-048d7e80-1d03-11e9-82c4-1ddfdf6633b1.gif" alt="Quadcopter Demo" />
+<p>
 
 ## DISCLAIMER :warning:
 
@@ -49,9 +53,20 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 :pushpin: **Achieved first flight**
 
+## HOW IT WORKS :rocket:
+
+The **drone** controlled by an **Adnroid application** connected via **WI-FI and tcp/ip protocol**. It has 3 main units **hardware, firmware and the mobile application**. As for hardware **rotors** are conected to **ESC's (Electronic Speed Controllers)**, the **ESC's** are connected to an **ESP-8266 micro controller** via pmw pins that send analog signals to the escs to allow voltages to **rotors**.
+
+**Bearing in mind it is a quadcopter** we have a **4 ESC's** all draining our **LiPo battery through it has a high discarge rate**, we have a **fiberglass pcb with copper linings** to provide a **PDB(Power distribution board)** for our **ESC's**.
+
+In addition to **hardware we have an MPU-6050** 6 degrees of freedom to measure both linear acceleration an orientation to provide an automated **flight stabilization method**.
+
+For the **firmware it is uploaded as a sketch** to our **micro controller via serial com from a laptop**. **C and C++ code is used to program the EEPROM**. Code is all written from **scratch** made user friendly, mobile and upgradable. The **android app is written in Java** using **http methods to send post requests to our micro controller** to control rpms of **rotors** by the **arduino Servo lib**.
+
+
 ## TECHNOLOGIES USED
 
-### :open_file_folder: SOFTWARE
+### :open_file_folder: FIRMWARE
 
 1. Android Development
 
@@ -87,8 +102,16 @@ This project is still under development and the challenges may have been solved.
 
 :small_blue_diamond: Start production of other drones to satisfy a huge demanding market. 
 
-## FEATURES!
+## FEATURES
 
 <p align="center">
 <img align="centre" src="Spec.md/Disp2.png" alt="Images of creators" />
 <p>
+
+## CONTACT
+
+This Repository is constantly being updated to keep up with the work. Feel free to contact for more information.
+
+:telephone_receiver: **Collins Magondu** +254 753 924273
+
+:incoming_envelope: **Collins Kariuki** collo.kariss@gmail.com
