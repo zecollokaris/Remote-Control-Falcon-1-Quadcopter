@@ -86,3 +86,5 @@ This project is still under development and the challenges may have been solved.
 :small_blue_diamond: Increase battery Flight time.
 
 :small_blue_diamond: Start production of other drones to satisfy a huge demanding market. 
+
+## FEATURES!
