@@ -51,18 +51,18 @@ THIS PRODUCT IS SOLEY OWNED BY FALCON ONE AND SHOULD NOT IN ANY WAY BE PRODUCED 
 
 #### SOFTWARE
 
-:o: Android Development
+:small_blue_diamond: Android Development
 
-:o: JAva Programming Language
+:small_blue_diamond: JAva Programming Language
 
-:o: C Programming Language
+:small_blue_diamond: C Programming Language
 
 #### HARDWARE
 
-:o: MPU-6050
+:small_blue_diamond: MPU-6050
 
-:o: ESP-8266 Node MCU
+:small_blue_diamond: ESP-8266 Node MCU
 
-:o: Quadcopter Kit
+:small_blue_diamond: Quadcopter Kit
 
 
