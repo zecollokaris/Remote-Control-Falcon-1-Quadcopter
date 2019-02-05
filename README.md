@@ -8,8 +8,6 @@
 
 With the recent advancement in technology the commercial drone industry demands an innovative and cost-effective solution to help the end-user in all applications of drones and their fields. 
 
-:point_right: Check out our demo too on instagram: https://zecollokaris.github.io/Web-moji/.
-
 ## DESCRIPTION 
 
 Falcon one is a light-weight Quadcopter that is safe and can be used Multi-purposely due to its endurance and load capacity
